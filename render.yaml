@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: biketools-store
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
